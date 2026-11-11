@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raqamlashtirish va Faktcheking Viktorinasi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 25px;
+        }
+        .question {
+            margin-bottom: 25px;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            background: #f9fbfc;
+            border-radius: 4px;
+        }
+        .question p {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .options label {
+            display: block;
+            margin: 8px 0;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+        .options label:hover {
+            background: #eef2f5;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Raqamlashtirish va Faktcheking Viktorinasi</h1>
+    <form>
+        <!-- 1-savol -->
+        <div class="question">
+            <p>1. Raqamlashtirish (Digitalization) deganda asosan nima tushuniladi?</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="a"> A) Barcha qog'oz kitoblarni yo'q qilish</label>
+                <label><input type="radio" name="q1" value="b"> B) Jarayonlar va xizmatlarga zamonaviy raqamli texnologiyalarni joriy etish</label>
+                <label><input type="radio" name="q1" value="c"> C) Faqat ijtimoiy tarmoqlarda profil ochish</label>
+                <label><input type="radio" name="q1" value="d"> D) Kompyuter o'yinlarini yaratish</label>
+            </div>
+        </div>
+
+        <!-- 2-savol -->
+        <div class="question">
+            <p>2. Faktcheking (Fact-checking) tushunchasining asosiy vazifasi nima?</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> A) Yangi yangiliklarni tezda o'ylab topish</label>
+                <label><input type="radio" name="q2" value="b"> B) Tarqatilayotgan ma'lumotlarning to'g'riligi va haqqoniyligini tekshirish</label>
+                <label><input type="radio" name="q2" value="c"> C) Videolarni sifatli qilib montaj qilish</label>
+                <label><input type="radio" name="q2" value="d"> D) Internet tezligini o'lchash</label>
+            </div>
+        </div>
+
+        <!-- 3-savol -->
+        <div class="question">
+            <p>3. Deepfake texnologiyasi nima va u nima uchun xavfli?</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a"> A) Rasmlarni rangini o'zgartiradi, hech qanday xavfi yo'q</label>
+                <label><input type="radio" name="q3" value="b"> B) Sun'iy intellekt yordamida soxta video va ovozlar yaratib, dezinformatsiyaga sabab bo'ladi</label>
+                <label><input type="radio" name="q3" value="c"> C) Internet aloqasini yaxshilaydi</label>
+                <label><input type="radio" name="q3" value="d"> D) Elektron pochtalarni spamdan himoya qiladi</label>
+            </div>
+        </div>
+
+        <!-- 4-savol -->
+        <div class="question">
+            <p>4. Internetdagi shubhali suratning qachon va qayerda olinganini aniqlash uchun qaysi usul qo'llaniladi?</p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a"> A) Suratlarni teskari qidirish (Reverse Image Search) vositalari</label>
+                <label><input type="radio" name="q4" value="b"> B) Uni shunchaki do'stlarga jo'natish</label>
+                <label><input type="radio" name="q4" value="c"> C) Matnni qayta o'qish</label>
+                <label><input type="radio" name="q4" value="d"> D) Kompyuterni qayta ishga tushirish</label>
+            </div>
+        </div>
+
+        <!-- 5-savol -->
+        <div class="question">
+            <p>5. "Ochiq ma'lumotlar" (Open Data) tushunchasining mazmuni nima?</p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a"> A) Barcha fuqarolarning shaxsiy parollari</label>
+                <label><input type="radio" name="q5" value="b"> B) Hammaga ochiq bo'lgan, erkin foydalanish va ulashish mumkin bo'lgan ma'lumotlar</label>
+                <label><input type="radio" name="q5" value="c"> C) Faqat pullik obuna orqali olinadigan yangiliklar</label>
+                <label><input type="radio" name="q5" value="d"> D) Davlat sirlari</label>
+            </div>
+        </div>
+
+        <!-- 6-savol -->
+        <div class="question">
+            <p>6. Axborotni tekshirishda birlamchi manba (Primary source) nima uchun muhim?</p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="a"> A) Chunki u eng so'nggi tarqatilgan mish-mish bo'ladi</label>
+                <label><input type="radio" name="q6" value="b"> B) U ma'lumotning asl, o'zgartirilmagan va ishonchli holatini ko'rsatadi</label>
+                <label><input type="radio" name="q6" value="c"> C) U faqat ijtimoiy tarmoqlarda uchraydi</label>
+                <label><input type="radio" name="q6" value="d"> D) Birlamchi manbalarning ahamiyati yo'q</label>
+            </div>
+        </div>
+
+        <!-- 7-savol -->
+        <div class="question">
+            <p>7. Raqamli savodxonlik (Digital literacy) deganda nimani tushunasiz?</p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="a"> B) Raqamli texnologiyalardan xavfsiz, samarali va tanqidiy fikrlagan holda foydalana olish ko'nikmasi</label>
+                <label><input type="radio" name="q7" value="b"> A) Tez matn terish qobiliyati</label>
+                <label><input type="radio" name="q7" value="c"> C) Qimmatbaho gadjetlar sotib olish</label>
+                <label><input type="radio" name="q7" value="d"> D) Dasturlash tillarini mukammal bilish</label>
+            </div>
+        </div>
+
+        <!-- 8-savol -->
+        <div class="question">
+            <p>8. Clickbait (klikbeyt) sarlavhalarining asosiy maqsadi nima?</p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="a"> A) O'quvchini qiziqtirib, bosish (klik) orqali saytga ko'proq foydalanuvchi jalb qilish</label>
+                <label><input type="radio" name="q8" value="b"> B) Ilmiy maqolalarni oson tushuntirish</label>
+                <label><input type="radio" name="q8" value="c"> C) Matnni qisqartirish</label>
+                <label><input type="radio" name="q8" value="d"> D) To'g'ri va xolis xabar berish</label>
+            </div>
+        </div>
+
+        <!-- 9-savol -->
+        <div class="question">
+            <p>9. "Tasdiqlash xatosi" (Confirmation bias) faktchekingda qanday namoyon bo'ladi?</p>
+            <div class="options">
+                <label><input type="radio" name="q9" value="a"> A) Odam o'zining avvalgi fikrini tasdiqlovchi xabarlarga oson ishonishi va qarama-qarshi dalillarni rad etishi</label>
+                <label><input type="radio" name="q9" value="b"> B) Internet sahifasining xato ishlashi</label>
+                <label><input type="radio" name="q9" value="c"> C) Ma'lumotlarni xato tarjima qilish</label>
+                <label><input type="radio" name="q9" value="d"> D) Parolni unutib qo'yish</label>
+            </div>
+        </div>
+
+        <!-- 10-savol -->
+        <div class="question">
+            <p>10. Ijtimoiy tarmoqlarda feyk (soxta) xabarga duch kelganda nima qilish kerak?</p>
+            <div class="options">
+                <label><input type="radio" name="q10" value="a"> A) Darhol barcha guruhlarga ulashish</label>
+                <label><input type="radio" name="q10" value="b"> B) Uni tarqatmaslik, ishonchli manbalardan tekshirish va shikoyat qilish</label>
+                <label><input type="radio" name="q10" value="c"> C) Muallifiga yozib maqtash</label>
+                <label><input type="radio" name="q10" value="d"> D) E'tibor bermasdan o'tkazib yuborish</label>
+            </div>
+        </div>
+
+        <button type="submit">Javoblarni yuborish</button>
+    </form>
+</div>
+
+</body>
+</html>

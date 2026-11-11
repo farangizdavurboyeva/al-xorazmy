@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKT va Tarmoq Xavfsizligi Bo'yicha Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+        .quiz-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .question {
+            margin-bottom: 25px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        .question-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="quiz-container">
+    <h1>Digitalizatsiya, Fakt-cheking va Tarmoq Xavfsizligi Testi</h1>
+    <form>
+        <!-- 1-savol -->
+        <div class="question">
+            <div class="question-title">1. Raqamlashtirish (Digitalization) nima?</div>
+            <div class="options">
+                <label><input type="radio" name="q1"> A) Faqat yangi kompyuterlar sotib olish jarayoni</label>
+                <label><input type="radio" name="q1"> B) Raqamli texnologiyalar yordamida biznes va jamiyat jarayonlarini o'zgartirish hamda samaradorlikni oshirish</label>
+                <label><input type="radio" name="q1"> C) Kompyuter o'yinlarini yaratish bosqichi</label>
+                <label><input type="radio" name="q1"> D) Qog'oz hujjatlarni tashlab yuborish</label>
+            </div>
+        </div>
+
+        <!-- 2-savol -->
+        <div class="question">
+            <div class="question-title">2. Davlat xizmatlarini raqamlashtirishning asosiy afzalligi nimada?</div>
+            <div class="options">
+                <label><input type="radio" name="q2"> A) Shaffoflikni oshirish va byurokratiyani kamaytirish</label>
+                <label><input type="radio" name="q2"> B) Internet narxini oshirish</label>
+                <label><input type="radio" name="q2"> C) Xodimlarni to'liq ishsiz qoldirish</label>
+                <label><input type="radio" name="q2"> D) Faqat tungi vaqtda xizmat ko'rsatish</label>
+            </div>
+        </div>
+
+        <!-- 3-savol -->
+        <div class="question">
+            <div class="question-title">3. Fakt-cheking (Fact-checking) so'zining ma'nosi nima?</div>
+            <div class="options">
+                <label><input type="radio" name="q3"> A) Ma'lumotlarni tezlik bilan tarqatish</label>
+                <label><input type="radio" name="q3"> B) Axborotning haqqoniyligi va aniqligini tekshirish jarayoni</label>
+                <label><input type="radio" name="q3"> C) Yangi yangiliklar o'ylab topish</label>
+                <label><input type="radio" name="q3"> D) Ijtimoiy tarmoqlarda obunachilar sonini ko'paytirish</label>
+            </div>
+        </div>
+
+        <!-- 4-savol -->
+        <div class="question">
+            <div class="question-title">4. Internetda feyk (yolg'on) xabarlarni aniqlashda qaysi usul samarasiz hisoblanadi?</div>
+            <div class="options">
+                <label><input type="radio" name="q4"> A) Manbaning ishonchliligini tekshirish</label>
+                <label><input type="radio" name="q4"> B) Rasmlarni teskari qidiruv (reverse image search) orqali tekshirish</label>
+                <label><input type="radio" name="q4"> C) Xabarni sarlavhasiga qarab darhol rost deb qabul qilish</label>
+                <label><input type="radio" name="q4"> D) Rasmiy axborot vositalaridagi ma'lumotlar bilan solishtirish</label>
+            </div>
+        </div>
+
+        <!-- 5-savol -->
+        <div class="question">
+            <div class="question-title">5. Deepfake texnologiyasi nima?</div>
+            <div class="options">
+                <label><input type="radio" name="q5"> A) Sun'iy intellekt yordamida inson tasviri yoki ovozini soxtalashtirish</label>
+                <label><input type="radio" name="q5"> B) Kompyuter virusidan himoyalanish dasturi</label>
+                <label><input type="radio" name="q5"> C) Internet tezligini oshiruvchi qurilma</label>
+                <label><input type="radio" name="q5"> D) Ma'lumotlar bazasini zaxiralash usuli</label>
+            </div>
+        </div>
+
+        <!-- 6-savol -->
+        <div class="question">
+            <div class="question-title">6. Fishing (Phishing) hujumi deganda nimani tushunasiz?</div>
+            <div class="options">
+                <label><input type="radio" name="q6"> A) Tarmoq kabelini uzib qo'yish</label>
+                <label><input type="radio" name="q6"> B) Soxta veb-saytlar yoki xabarlar orqali foydalanuvchining shaxsiy va bank ma'lumotlarini o'g'irlash</label>
+                <label><input type="radio" name="q6"> C) Kompyuterni zararli dasturlardan tozalash</label>
+                <label><input type="radio" name="q6"> D) Parollarni avtomatik tarzda eslab qolish</label>
+            </div>
+        </div>
+
+        <!-- 7-savol -->
+        <div class="question">
+            <div class="question-title">7. Ikki bosqichli autentifikatsiya (2FA) nima uchun kerak?</div>
+            <div class="options">
+                <label><input type="radio" name="q7"> A) Akkauntga kirishni sekinlashtirish uchun</label>
+                <label><input type="radio" name="q7"> B) Akkaunt xavfsizligini oshirish va qo'shimcha tasdiqlash kodini talab qilish uchun</label>
+                <label><input type="radio" name="q7"> C) Parolni unutib qo'ymaslik uchun</label>
+                <label><input type="radio" name="q7"> D) Internet trafikni tejash uchun</label>
+            </div>
+        </div>
+
+        <!-- 8-savol -->
+        <div class="question">
+            <div class="question-title">8. Qaysi parol tarmoqda xavfsizroq hisoblanadi?</div>
+            <div class="options">
+                <label><input type="radio" name="q8"> A) 12345678</label>
+                <label><input type="radio" name="q8"> B) qwerty2024</label>
+                <label><input type="radio" name="q8"> C) K8#mP!9vL$q2</label>
+                <label><input type="radio" name="q8"> D) ismingiz va tug'ilgan yilingiz</label>
+            </div>
+        </div>
+
+        <!-- 9-savol -->
+        <div class="question">
+            <div class="question-title">9. Jamoat joylaridagi ochiq Wi-Fi tarmoqlaridan foydalanishda qanday xavf bor?</div>
+            <div class="options">
+                <label><input type="radio" name="q9"> A) Telefon batareyasi tezroq tugaydi</label>
+                <label><input type="radio" name="q9"> B) Trafik ma'lumotlari buzib kiruvchilar (hakerlar) tomonidan tutib olinishi va o'g'irlanishi mumkin</label>
+                <label><input type="radio" name="q9"> C) Telefon xotirasi to'lib qoladi</label>
+                <label><input type="radio" name="q9"> D) Wi-Fi tezligi har doim juda past bo'ladi</label>
+            </div>
+        </div>
+
+        <!-- 10-savol -->
+        <div class="question">
+            <div class="question-title">10. Firewall (Brandmauer) dasturining asosiy vazifasi nimadan iborat?</div>
+            <div class="options">
+                <label><input type="radio" name="q10"> A) Tarmoq trafigini nazorat qilish va ruxsat berilmagan kirishlarning oldini olish</label>
+                <label><input type="radio" name="q10"> B) Kompyuter protsessorini sovutish</label>
+                <label><input type="radio" name="q10"> C) Fayllarni bir formatdan boshqasiga o'tkazish</label>
+                <label><input type="radio" name="q10"> D) Internet brauzerini yangilash</label>
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
